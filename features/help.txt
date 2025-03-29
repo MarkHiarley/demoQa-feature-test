@@ -1,0 +1,1 @@
+Essa pasta vai ser onde deve ser postas os cenarios de teste, por exemplo: "taltaltal.feature"
