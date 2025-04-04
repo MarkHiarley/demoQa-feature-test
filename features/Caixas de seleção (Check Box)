@@ -1,0 +1,29 @@
+Cenário: Marcar uma opção simples
+Dado que estou na página de checkboxes
+Quando eu marco a caixa "Documentos"
+Então deve aparecer a mensagem mostrando todos os documentos selecionados
+E a caixa deve ficar marcada com [x]
+
+Cenário: Desmarcar uma opção
+Dado que a caixa "Transferências" está marcada
+Quando eu clico nela para desmarcar
+Então a mensagem deve remover os itens de transferências
+E a caixa deve voltar para o estado [ ]
+
+Cenário: Marcar uma pasta com subitens
+Dado que estou vendo a opção "Lar"
+Quando eu marco essa caixa principal
+Então todas as caixas dentro de "Lar" devem ser marcadas automaticamente
+E a mensagem deve mostrar todos os itens selecionados
+
+Cenário: Desmarcar uma pasta com subitens
+Dado que "Lar" está marcado com todos seus subitens
+Quando eu desmarco "Lar"
+Então todas as caixas dentro devem ser desmarcadas
+E a mensagem deve remover todos esses itens
+
+Cenário: Marcar apenas alguns subitens
+Dado que a opção "Lar" está expandida
+Quando eu marco apenas "Área de trabalho"
+Então a caixa "Lar" deve ficar com [-] indicando seleção parcial
+E a mensagem deve mostrar apenas os itens marcados
