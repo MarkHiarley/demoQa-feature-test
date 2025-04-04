@@ -1,0 +1,47 @@
+Cenário 1: Arrastar e soltar com sucesso
+
+Entro na página "Droppable"
+
+Arrasto o quadrado "Drag me" para a área "Drop here"
+
+A área deve ficar verde e mostrar "Dropped!"
+
+Cenário 2: Arrastar para fora da área
+
+Estou na página "Droppable"
+
+Arrasto o quadrado para fora da área de soltar
+
+O quadrado deve voltar pro lugar inicial
+
+A área continua mostrando "Drop here"
+
+Cenário 3: Resetar a posição (se tiver botão)
+
+Depois de soltar o quadrado na área
+
+Clico no botão "Reset"
+
+O quadrado volta pro início
+
+A área volta ao normal
+
+Cenário 4: Ver aparência durante o arraste
+
+Quando estou arrastando o quadrado
+
+O cursor fica com a mão fechada
+
+O quadrado fica meio transparente ou com borda pontilhada
+
+Cenário 5: Soltar pela metade
+
+Arrasto o quadrado até a beirada da área
+
+Solto ele só pela metade
+
+O sistema pode:
+
+Aceitar como válido (mudar a área)
+
+Ou fazer o quadrado voltar
